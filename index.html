@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>S-COM SOFTWARE v1.3 - Terminal Log</title>
+  <style>
+    body {
+      background-color: #050505;
+      color: #ffffff;
+      font-family: "Courier New", Courier, monospace;
+      padding: 30px;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    .log-container {
+      max-width: 900px;
+      margin: 0 auto;
+      border: 2px solid #333;
+      padding: 25px;
+      background-color: #000000;
+      min-height: 500px;
+    }
+    .system-green { color: #00ff00; font-weight: bold; }
+    .system-red { color: #ff3333; font-weight: bold; }
+    .timestamp { color: #888888; margin-right: 15px; }
+    .username { color: #ffffff; font-weight: bold; display: inline-block; width: 70px; vertical-align: top; }
+    .message { color: #ffffff; display: inline-block; width: calc(100% - 180px); vertical-align: top; white-space: pre-line; }
+    p { margin: 10px 0; }
+    hr { border: 0; border-top: 1px dashed #333; margin: 20px 0; }
+  </style>
+</head>
+<body>
+
+<div class="log-container">
+  <!-- Connection Initiation -->
+  <p><span class="timestamp">[22:14:06]</span> <span class="system-green">****** CONNECTED TO MAIN SERVER ******</span></p>
+  
+  <hr>
+
+  <!-- The Dialogue Conversation -->
+  <p>
+    <span class="timestamp">[22:14:42]</span> 
+    <span class="username">TSL:</span> 
+    <span class="message">The shipment was received?</span>
+  </p>
+  
+  <p>
+    <span class="timestamp">[22:15:04]</span> 
+    <span class="username">LB2:</span> 
+    <span class="message">Perfectly. It's been set up in one of the maintenance rooms, and seems to work just as the document stated.</span>
+  </p>
+  
+  <p>
+    <span class="timestamp">[22:15:23]</span> 
+    <span class="username">TSL:</span> 
+    <span class="message">That's good to hear. I was sceptical it would work but I'm not surprised your eggheads over there managed to figure it out.</span>
+  </p>
+  
+  <p>
+    <span class="timestamp">[22:15:45]</span> 
+    <span class="username">LB2:</span> 
+    <span class="message">The paper certainly sounds like fantasy. It's a miracle how this hunk of metal works.</span>
+  </p>
+
+  <p>
+    <span class="timestamp">[22:16:18]</span> 
+    <span class="username">TSL:</span> 
+    <span class="message">It's clockwork. We sent it over to the Steamworks initially and the cloud boys confirmed no electronic assemblies were present, or any form of power, other than the "Mainspring" under the "Selection Panel." Eighteen square meters of nothing but screw drives, belts, pulleys, springs and other clockwork. Their specialty.</span>
+  </p>
+
+  <p>
+    <span class="timestamp">[22:16:32]</span> 
+    <span class="username">LB2:</span> 
+    <span class="message">Why didn't they keep it? Sounds like something right up their alley.</span>
+  </p>
+
+  <p>
+    <span class="timestamp">[22:17:21]</span> 
+    <span class="username">TSL:</span> 
+    <span class="message">They had an accident with it. Refining one of their fusion core prototypes resulted in an outcome more volatile than anticipated. Their prototype animated instantly and ended up shredding half of their facility. Unsurprisingly, they sent it back. It's natural to fear the unknown, and despite their intense observation, it was impossible to understand how the refining process even worked. They said they appreciated the technological marvel, but it almost felt "paranormal".</span>
+  </p>
+
+  <p>
+    <span class="timestamp">[22:18:35]</span> 
+    <span class="username">LB2:</span> 
+    <span class="message">Let me guess, "Very Fine"? Whilst "Fine" seems to produce a straightforward upgrade safe and reliably, "Very Fine" appears to do the same, albeit with highly anomalous side-effects. One kilogram of steel yielded us a completely unknown alloy, resistant to heat of sixty-thousand degrees, and proved impossible to bend or break with any force. I wouldn't be surprised if that fusion core was supercharged with something completely out of this world. I'd love to run an experiment sometime, if their prototype is still in production. Sounds like that could jump-start one of those war machines you've got lying around in the backroom. Who knows, might just make M2 completely obsolete.</span>
+  </p>
+
+  <p>
+    <span class="timestamp">[22:18:52]</span> 
+    <span class="username">TSL:</span> 
+    <span class="message">Well it sounds to me like you are already having a lot of fun.</span>
+  </p>
+
+  <p>
+    <span class="timestamp">[22:20:02]</span> 
+    <span class="username">LB2:</span> 
+    <span class="message">You bet. The metal alloy produced has already been replicated and lined in the blast-doors. It's perfect for the unpredictable disposition of the M2 project. Due to the nature of this machine, a wide range of test data is helpful. All testing is recorded in file #914-E, and I've authorised any researcher can have access for non-biological testing if they themselves are supervised by a level-3 researcher. As for biological testing, we are beginning next week. It's a risky line to cross, but something we can't leave unanswered. We already have two volunteers, a grass/poison type and a water type. Both fully evolved, registered number #003 and #009. The results will be something to anticipate.</span>
+  </p>
+
+  <p>
+    <span class="timestamp">[22:20:20]</span> 
+    <span class="username">TSL:</span> 
+    <span class="message">Think of this gift as a sign of goodwill, for our ongoing agreement.</span>
+  </p>
+
+  <p>
+    <span class="timestamp">[22:21:03]</span> 
+    <span class="username">LB2:</span> 
+    <span class="message">Oh please, Tseldora labs has done more for us than we have returned. Live specimens of prehistoric life is infinitely more valuable than our cloned specimens. Not to mention the high-tech electronics you've pulled out of those rifts and sent over. It's perfect for</span>
+  </p>
+
+  <!-- Network Degradation Errors -->
+  <p><span class="timestamp">[22:21:05]</span> <span class="system-red">****** WARNING: POOR CONNECTION DETECTED // PACKET LOSS HIGH ******</span></p>
+
+  <p>
+    <span class="timestamp">[22:21:14]</span> 
+    <span class="username">LB2:</span> 
+    <span class="message">Not good. Those are the containment breach alarms.</span>
+  </p>
+
+  <p>
+    <span class="timestamp">[22:21:20]</span> 
+    <span class="username">TSL:</span> 
+    <span class="message">What's going on?</span>
+  </p>
+
+  <p>
+    <span class="timestamp">[22:21:32]</span> 
+    <span class="username">LB2:</span> 
+    <span class="message">M2 is out, it's gone rogue. The blast-doors should hold but, crap. We need to evacuate.</span>
+  </p>
+
+  <p><span class="timestamp">[22:21:35]</span> <span class="system-red">****** WARNING: CRITICAL SIGNAL DROP ******</span></p>
+
+  <p>
+    <span class="timestamp">[22:21:46]</span> 
+    <span class="username">TSL:</span> 
+    <span class="message">What about the machine? Something of that value absolutely cannot be lost.</span>
+  </p>
+
+  <p>
+    <span class="timestamp">[22:21:50]</span> 
+    <span class="username">LB2:</span> 
+    <span class="message">It's</span>
+  </p>
+
+  <!-- Hard Disconnects -->
+  <p><span class="timestamp">[22:21:53]</span> <span class="system-red">****** CONNECTION LOST: TERMINATING ******</span></p>
+  <p><span class="timestamp">[22:21:54]</span> <span class="system-red">****** CONNECTION TERMINATED ******</span></p>
+</div>
+
+</body>
+</html>
